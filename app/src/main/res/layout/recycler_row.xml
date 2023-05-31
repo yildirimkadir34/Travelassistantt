@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#264653">
+
+    <TextView
+        android:layout_marginStart="7dp"
+        android:id="@+id/recyclerSira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="#2A9D8F"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <TextView
+            android:layout_marginStart="7dp"
+            android:id="@+id/recyclerNot"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="0dp"
+            android:text="EV ADRESİM"
+            android:textColor="#F4A261"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageViewsetonclick"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+
+            android:layout_marginEnd="1dp"
+
+            app:srcCompat="@drawable/googlemaps" />
+
+        <TextView
+            android:id="@+id/recyclerLatitude"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:text="Latitude :"
+
+            android:textSize="18sp"
+            android:visibility="visible">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/recyclerLongitude"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:text="Longitude:"
+
+            android:textSize="18sp"
+            android:visibility="visible">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
